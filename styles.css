@@ -15,6 +15,7 @@ header {
 .logo {
     margin-top: 15%;
     width: 40%;
+    align-self: flex-start; /* fixes stretch issue in ios */
 }
 
 h1 {
